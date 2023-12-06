@@ -1,0 +1,2 @@
+Find the serial of every disk drive:
+sudo hdparm -i /dev/sd* | grep -e Serial -e /dev/
